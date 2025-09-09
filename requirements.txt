@@ -1,0 +1,13 @@
+# requirements.txt
+requests
+tqdm
+pandas
+numpy
+librosa
+soundfile
+flask
+gunicorn
+scikit-learn
+matplotlib
+seaborn
+resampy
