@@ -1,13 +1,20 @@
-# requirements.txt
-requests
-tqdm
-pandas
-numpy
-librosa
-soundfile
-flask
-gunicorn
-scikit-learn
+
 matplotlib
 seaborn
 resampy
+Flask==3.0.3
+gunicorn==23.0.0
+
+numpy==1.26.4
+numba==0.57.1
+librosa==0.10.1
+scikit-learn==1.5.1
+pandas==2.2.2
+joblib==1.4.2
+
+soundfile==0.12.1
+soxr==0.3.7
+
+# optional helpers
+requests==2.32.3
+tqdm==4.66.5
